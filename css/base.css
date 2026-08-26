@@ -1,0 +1,81 @@
+body {
+  margin: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.bg-color {
+  background-color: rgba(0, 0, 255, 0.19);
+}
+p {
+  max-width: 800px;
+  margin-top: 4em;
+}
+code {
+  background-color: rgba(255, 182, 193, 0.309);
+  color: hotpink;
+  padding: 0.1em;
+}
+.css-box-model {
+  background-color: rgb(175, 175, 255);
+  width: 200px;
+  height: 200px;
+  padding: 2em;
+  border: 2px dashed blue;
+  margin: 4em;
+}
+.block {
+  display: block;
+  border: 2px solid blue;
+  height: 100px;
+}
+.inline {
+  display: inline;
+  border: 2px dashed blue;
+  margin: 1em;
+  height: 100px;
+  width: 100px;
+}
+.inline-block {
+  display: inline-block;
+  border: 4px dotted blue;
+  margin: 1em;
+  height: 100px;
+  width: 100px;
+}
+.no-padding {
+  width: 200px;
+  border: 2px solid blue;
+  display: inline-block;
+}
+.padding {background-color: white;
+  width: 200px;
+  border: 2px dotted blue;
+  padding: 4em;
+  display: inline-block;
+}
+.no-margin {
+  width: 200px;
+  border: 2px solid blue;
+  display: inline-block;
+}
+.margin {
+  background-color: white;
+  width: 200px;
+  border: 2px dotted blue;
+  display: inline-block;
+  margin: 4em 4em 4em 20em;
+}
+.no-border {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 2em;
+}
+.border {
+  border: 4px solid blue;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
