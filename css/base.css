@@ -6,23 +6,61 @@ body {
 }
 .bg-color {
   background-color: rgba(0, 0, 255, 0.19);
+  padding: 2em;
 }
 p {
   max-width: 800px;
   margin-top: 4em;
+}
+p:first-of-type {
+  margin-top: 0.5em;
 }
 code {
   background-color: rgba(255, 182, 193, 0.309);
   color: hotpink;
   padding: 0.1em;
 }
+.fourth {
+  background-color: rgba(0, 0, 255, 0.19);
+  width: 600px;
+  height: 600px;
+  padding: 2em;
+  margin: 2em 5em 2em 1em;
+}
+.third {
+  background-color: rgba(0, 0, 255, 0.19);
+  width: 400px;
+  height: 400px;
+  padding: 2em;
+  border: 4px dotted blue;
+  border-radius: 0% 10%;
+}
+.second {
+  background-color: rgba(0, 0, 255, 0.19);
+  width: 300px;
+  height: 300px;
+  padding: 2em 1em 0.5em 5em;
+}
+/* .left {
+  display: inline-block;
+  height: 200px;
+  border-left: 2px solid green;
+  margin: 0em 2em 0em 4em;
+}
+.right {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-right: 2px solid blue;
+} */
 .css-box-model {
+  display: inline-block;
   background-color: rgb(175, 175, 255);
   width: 200px;
   height: 200px;
   padding: 2em;
-  border: 2px dashed blue;
-  margin: 4em;
+  /* border: 2px dashed blue; */
+  /* margin: 0em 10em 0em 0em; */
 }
 .block {
   display: block;

@@ -7,11 +7,24 @@
   <title>Document</title>
 </head>
 <body>
-  <section class="bg-color">
+
+  <section>
     <h3>The CSS box model</h3> 
+    <p>When laying out a document, the browser's rendering engine represents each element as a rectangular box according to the standard CSS basic box model. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes.
+        Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
+    </p>
     <a href="https://www.w3schools.com/css/css_boxmodel.asp">link to W3Schools CSS box module</a>
-    <div class="css-box-model">Content</div>
+    <div>
+       <div class="fourth"> <code>margin: 2em 5em 2em 1em;</code>
+          <div class="third"> <code>border: 4px dotted blue; <br>border-radius: 0% 10%;</code>
+            <div class="second"> <code>padding: 2em 1em 0.5em 5em;</code>
+              <div class="css-box-model">Content</div>  
+            </div>
+          </div>
+       </div>
+    </div>
   </section>
+
   <section>
     <h3>Display</h3>
     <p><code>display: block</code> is below. Block element: an element that is formatted as a block and takes up the entire width of the viewport. Each block elements starts on a new line.  </p>
@@ -23,6 +36,7 @@
     <div class="inline-block"><code>display: inline-block;</code></div>
     <div class="inline-block"><code>display: inline-block;</code></div>
   </section>
+
   <section class="bg-color">
     <h3>Padding & margin</h3>
     <div>
